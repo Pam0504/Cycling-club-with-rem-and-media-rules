@@ -1,0 +1,184 @@
+/* Header section */
+
+.header {
+    position: relative;
+    width: 100%;
+    background-color: rgb(243, 245, 244);
+    padding-top: 0.5rem;
+    text-align: right;
+  }
+/*------------------------logo-------------------*/
+  #logo {
+    background-repeat: no-repeat;
+    max-width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+  }
+/*-----------------------list-------------------*/
+  nav li {
+    display: inline;
+    width: 50%;
+    margin-right: 7rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    color: rgb(136, 20, 36);
+  }
+
+  /* Shake your body */
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  background-color: rgb(243, 245, 244);
+}
+/*---------------------banner text-------------------*/
+.top-right {
+    position: absolute;
+    top: 9.5rem;
+    right: 6.8rem;
+    font-size: 2.5rem;
+    color: rgb(136, 20, 36);
+    opacity: 0.75;
+  }
+/*---------------------banner text-------------------*/
+  .quote {
+    position: absolute;
+    top: 12.7rem;
+    right: 9.5rem;
+    font-size: 1.25rem;
+    color: rgb(136, 20, 36);
+    opacity: 0.75;
+  }
+  /*--------------------all story class-------------------*/
+  .story {
+    width: 95%;
+    height: 10rem;
+    text-align: center;
+    background-color: rgb(243, 245, 244);
+    padding-bottom: 1.75rem;
+  }
+/*--------------------all story class  paragraph-------------------*/
+  .story p {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    white-space:pre-wrap;/*line height*/
+    color: rgb(71, 69, 69);
+  }
+/*--------------------all story class  h2-------------------*/
+  .story h2 {
+    color: rgb(48, 46, 46);
+  }
+  
+  /*--------------------all picture classes-------------------*/
+  .picture {
+    margin: 10px 0;
+    width: 100%;
+    height: 20rem;
+    padding-top: 13rem;
+    text-align: center;
+    position: relative;
+  }
+  
+  /*--------------------race picture-------------------*/
+  #race.picture {
+    background-image: url('C:/Users/parme/OneDrive/Documents/wesite example/grid and spacing/cycling club bike3a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /*--------------------picture------------------*/
+  #road.picture {
+    background-image: url('C:/Users/parme/OneDrive/Documents/wesite example/grid and spacing/cycling club bike4a.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /*--------------------picture-------------------*/
+  #crit.picture {
+    background-image: url('C:/Users/parme/OneDrive/Documents/wesite example/grid and spacing/cycling club bike5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /*--------------------picture-------------------*/
+  #track.picture {
+    background-image: url('C:/Users/parme/OneDrive/Documents/wesite example/grid and spacing/cycling club bike6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  /*--------------------cyclocross picture-------------------*/
+  #cyclocross.picture {
+    background-image: url('C:/Users/parme/OneDrive/Documents/wesite example/grid and spacing/cycling club bike7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Footer finally uhhh */
+
+.footer {
+    position: relative;
+    background-color: rgb(243, 245, 244);
+    text-align: right;
+    font-weight: 600;
+    color: rgb(136, 20, 36);
+    width: 98%;
+    margin-top: 5rem;
+    font-size: 0.8rem;
+  }
+  
+  /* Media */
+
+@media only screen and (max-width: 1024px) {
+    .picture {
+     max-width: 100%;
+     height: auto;
+     display: block;
+    }
+    #hideonmobile {
+      display: none;
+    }
+   }
+  
+  @media only screen and (max-width: 768px) {
+   .picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+   }
+   #hideonmobile {
+     display: none;
+   }
+   nav li {
+     display: inline-block;
+   }
+   .story p {
+     display: inline;
+     font-size: 0.85rem;
+   }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    nav li {
+      display: inline-block;
+    }
+    .story p {
+      display: inline;
+      font-size: 0.85rem;
+    }
+    .picture {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      overflow: hidden;
+    }
+    #hideonmobile {
+      display: none;
+    }
+  }
